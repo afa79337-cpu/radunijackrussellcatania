@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raduni Jack Russell Catania - Community dei Jack Russell</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUAMK1Qd7VPZXHwLIe2v3fDMl5k1jZ48klPy7ArsH9895tI9kmNLcj3LnG4ZUctX7nXg6VRT3Ew62YeiRT0hzVypisfCF9My_tK_0SIpKwz1AU967Bzj5Oi5r467s6EBdFYEAygXH33RVb0MO5FA7-RC9O5wrD3kfVlvNCE9r9xscEellgkx9mo3u6U=w16383" alt="Logo Raduni Jack Russell" class="logo-img">
+                    <span>Raduni Jack Russell Catania</span>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="chi-siamo.html" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="la-storia.html" class="nav-link">La Storia</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="news.html" class="nav-link">News</a></li>
+                    <li><a href="#registrati" class="nav-link">Registrati</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-image">
+            <i class="fas fa-dog"></i>
+            <i class="fas fa-dog"></i>
+            <i class="fas fa-dog"></i>
+        </div>
+        <div class="hero-content">
+            <h1>Benvenuto/a a Raduni Jack Russell Catania</h1>
+            <p>La community dedicata ai Jack Russell del territorio catanese</p>
+            
+            <div class="raduni-counter">
+                <h3>RADUNI DISPONIBILI:</h3>
+                <div class="raduni-number inactive" id="raduniNumber">0</div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="https://form.jotform.com/251222759823055" target="_blank" class="btn btn-primary" id="registraBtn">Registrati al Raduno</a>
+                <a href="#chi-siamo" class="btn btn-secondary">Scopri di Più</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luogo Prossimo Raduno Section -->
+    <section class="section luogo-raduno-section">
+        <div class="container">
+            <h2>Dove Faremo il Prossimo Raduno?</h2>
+            <p class="section-subtitle">Aiutaci a scegliere il luogo! Vota il posto che ti ispira di più</p>
+            <a href="#" class="btn btn-primary" id="vota-luogo-btn">Vota il Luogo</a>
+        </div>
+    </section>
+
+    <!-- Chi Siamo Section -->
+    <section id="chi-siamo" class="section">
+        <div class="container">
+            <h2>Chi Siamo?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Una Community Unita</h3>
+                    <p>Siamo un gruppo di appassionati proprietari di Jack Russell che si riuniscono regolarmente per condividere momenti speciali e far socializzare i nostri cani.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Amore per la Razza</h3>
+                    <p>Passione genuina per i Jack Russell e dedizione nel promuovere il benessere di questi meravigliosi cani intelligenti e vivaci.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Radicati a Catania</h3>
+                    <p>Organizzati nel territorio catanese, creiamo opportunità di incontro e scambio di esperienze tra proprietari della nostra amata città.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights">
+        <div class="container">
+            <div class="highlight-item">
+                <div class="highlight-icon">
+                    <i class="fas fa-calendar-check"></i>
+                </div>
+                <div class="highlight-content">
+                    <h3>Nessun Raduno Organizzato al momento</h3>
+                    <p>Unisciti ai nostri raduni mensili dove i Jack Russell possono giocare, socializzare e divertirsi insieme!</p>
+                </div>
+            </div>
+            <div class="highlight-item">
+                <div class="highlight-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <div class="highlight-content">
+                    <h3>Concorso: Jack più Buffo!</h3>
+                    <p>Partecipa al nostro concorso divertente e vinci premi esclusivi! Mostra il lato più simpatico del tuo Jack!</p>
+                </div>
+            </div>
+            <div class="highlight-item">
+                <div class="highlight-icon">
+                    <i class="fas fa-comment-dots"></i>
+                </div>
+                <div class="highlight-content">
+                    <h3>Gruppo WhatsApp</h3>
+                    <p>Unisciti al nostro gruppo WhatsApp pubblico per restare aggiornato e condividere opinioni con la community!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- La Storia dei Jack Russell -->
+    <section id="storia" class="section storia-section">
+        <div class="container">
+            <h2>La Storia dei Jack Russell</h2>
+            <div class="storia-content">
+                <div class="storia-text">
+                    <h3>Origini e Caratteristiche</h3>
+                    <p>Il Jack Russell Terrier è una razza di piccoli cani da caccia originaria dell'Inghilterra del XIX secolo. Prende il nome dal Reverendo John Russell, che ha sviluppato la razza per la caccia alla volpe.</p>
+                    <p>Questi cani sono noti per:</p>
+                    <ul>
+                        <li><strong>Intelligenza eccezionale</strong> - Altamente addestrabile e veloce nell'apprendimento</li>
+                        <li><strong>Energia illimitata</strong> - Richiedono molto esercizio e stimolazione mentale</li>
+                        <li><strong>Carattere vivace</strong> - Affettuosi, coraggiosi e pieni di personalità</li>
+                        <li><strong>Agilità</strong> - Perfetti per sport canini e attività all'aperto</li>
+                    </ul>
+                    <p>Il Jack Russell è il cane perfetto per chi ama l'avventura e vuole un compagno attivo e leale!</p>
+                    <a href="#registrati" class="btn btn-primary">Unisciti alla Nostra Community</a>
+                </div>
+                <div class="storia-image">
+                    <i class="fas fa-book"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2>Gallery - I Nostri Jack Russell</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://scontent-mxp1-1.xx.fbcdn.net/v/t39.30808-6/558940077_122154636608796319_8584367961788049569_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=PDnRByvhxSwQ7kNvwG2oGf2&_nc_oc=Ado_bmuoiO3U1PQu8xyuCIDu-RW1MhkiVgGirmQugYZE1MlAzuisxGSGZBxS9VBmh0w&_nc_zt=23&_nc_ht=scontent-mxp1-1.xx&_nc_gid=jyrgq6ZbusbKYnRscukDsg&_nc_ss=7b2a8&oh=00_Af66sjArL1huIOa8TzzQpA9Xp6C8DTOGJPMXeOrya0qWpg&oe=6A0CA17E" alt="Raduno Etnapolis" class="gallery-img">
+                    <div class="gallery-caption">Raduno a Etnapolis 05/10/2025</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent-mxp2-1.xx.fbcdn.net/v/t39.30808-6/497931323_1888472035027710_320095378897943576_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-P9KXy8K07UQ7kNvwE8LNzs&_nc_oc=Adr7giNKMDvwICvjextirgkZXUDmiR-BdbZyTgH-QW16XtK94qTA6TROZ6Qe31bzMMM&_nc_zt=23&_nc_ht=scontent-mxp2-1.xx&_nc_gid=1Lx3xVj2IJ2fkZjjlUpkCA&_nc_ss=7b2a8&oh=00_Af4oPVHPZdrKY1zFcjCtQa12K-hf87zUfME46JbXVTU8gg&oe=6A0CB84A" alt="Raduno Boschetto" class="gallery-img">
+                    <div class="gallery-caption">Raduno al Boschetto della Playa 01/06/2025</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUDWgaZ7zmQR0M--Fb_dUGyjgLXW4USh7J1HZSeEd0E6cIfrApspMLtQGZD-2pSFwYVKxPOwR6W5mWW6Qxi_ChRsk5qfwBxaMLtbJdkk9G8SxRNme3DXx9OXxFlxqHY941OH6GcX2fviCUlVNJ0reMUjOGalk7Y2On92vwB1rab4mtzlKdOm8BsayUdDK4im1GKgEzAzaPsEE8WbqtApeOf08KhQCLvd1qgOGog=w1280" alt="Foto 8" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent-mxp2-1.xx.fbcdn.net/v/t39.30808-6/655009476_1410537617512121_2883570370692091195_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cr1E0N3AfOMQ7kNvwHL7sGK&_nc_oc=AdoJP5ON6W3nlmXuwSJKK3Z81OZu1NEWgri65FNYB_pbWu0KZExisa1wBMuYzfJ5MbE&_nc_zt=23&_nc_ht=scontent-mxp2-1.xx&_nc_gid=UBFBP8hh463VMTYz81lM0w&_nc_ss=7b2a8&oh=00_Af53d_EhL7Jn8MoCoUWAQhsUbwen1OixJ8yoIZ9EfLR6eQ&oe=6A0CB055" alt="Foto 1" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent-mxp2-1.xx.fbcdn.net/v/t39.30808-6/518095951_24808070245446467_7915450145973161654_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=V-bM0cahtqQQ7kNvwG_2qr_&_nc_oc=Adop-A3EnI3WjvfD6_DELOPhupEgA0gTKcWFJt3mrltmrV3sQv5kMkABQjQqRHd6fKg&_nc_zt=23&_nc_ht=scontent-mxp2-1.xx&_nc_gid=cK4qfjDe_PDKPS8AIh41Fw&_nc_ss=7b2a8&oh=00_Af5d8LySAXaoAmbaqcwOdnxI4oMfIWKkDlOnH0ZRTYaUAw&oe=6A0CA3BE" alt="Foto 2" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://scontent-mxp2-1.xx.fbcdn.net/v/t39.30808-6/502752313_1888450281696552_1156018490421502852_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=So4RzvgqwewQ7kNvwHA4ngF&_nc_oc=Ado0ezkdX2IZ75vcxGzC89Xmy_PmW9Q3KOCTNRZHnOBRsz6IqjcVKOR-qw7MqGSaR34&_nc_zt=23&_nc_ht=scontent-mxp2-1.xx&_nc_gid=g1RfdbpjujY10WDA5Bg7uA&_nc_ss=7b2a8&oh=00_Af4V25Mt_nM4sLFmb6_HMsOFhqO0TTbSaXXr-e4Uk9HGeQ&oe=6A0CBC59" alt="Foto 3" class="gallery-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registrati Section -->
+    <section id="registrati" class="section registrati-section">
+        <div class="container">
+            <h2>Registrati al Prossimo Raduno!</h2>
+            <p class="section-subtitle">Clicca il pulsante sotto per iscriverti ai nostri prossimi eventi tramite Jotform</p>
+            <div style="text-align: center;">
+                <a href="https://form.jotform.com/251222759823055" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 40px;">Registrati Ora su Jotform</a>
+            </div>
+            <p class="form-note" style="margin-top: 2rem;">Sarai reindirizzato al nostro modulo di registrazione Jotform. Tutti i dati verranno utilizzati solo per contattarti riguardo i nostri raduni.</p>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+    <section class="social-section">
+        <div class="container">
+            <h2>Seguici sui Social</h2>
+            <p>Rimani aggiornato su news, foto e video dei nostri raduni</p>
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@ettorejackrussel_2022" target="_blank" class="social-link tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+                <a href="https://www.facebook.com/people/Raduni-Jack-Russell-Catania/61573889584589/" target="_blank" class="social-link facebook">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.youtube.com/@RaduniJackRussellCatania" target="_blank" class="social-link youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+                <a href="https://form.jotform.com/251222128423344" target="_blank" class="social-link whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Raduni Jack Russell Catania</h3>
+                    <p>La community dedicata ai Jack Russell del territorio catanese</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Link Veloci</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#chi-siamo">Chi Siamo</a></li>
+                        <li><a href="#storia">La Storia</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contatti Social</h3>
+                    <p>Facebook: Raduni Jack Russell Catania</p>
+                    <p>TikTok: @ettorejackrussel_2022</p>
+                    <p>YouTube: Raduni Jack Russell Catania</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Raduni Jack Russell Catania. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
