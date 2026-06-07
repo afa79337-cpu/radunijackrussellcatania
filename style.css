@@ -62,8 +62,8 @@ body {
 }
 
 .logo-img {
-    height: 50px;
-    width: auto;
+    height: auto;
+    max-width: 150px;
     object-fit: contain;
 }
 
@@ -77,27 +77,26 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
-    transition: color 0.3s ease;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
     position: relative;
+    background-color: transparent;
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
+    color: var(--white);
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 69, 19, 0.2);
 }
 
 .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--primary-color);
-    transition: width 0.3s ease;
+    display: none;
 }
 
 .nav-link:hover::after {
-    width: 100%;
+    display: none;
 }
 
 .hamburger {
@@ -471,8 +470,8 @@ body {
 
 .gallery-img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     display: block;
     transition: transform 0.3s ease;
 }
@@ -496,6 +495,20 @@ body {
     background-color: var(--light-bg);
     padding: 3rem 2rem;
     text-align: center;
+}
+
+/* Locandina Section */
+.locandina-section {
+    background-color: var(--white);
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.locandina-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: var(--shadow-lg);
 }
 
 .luogo-raduno-section h2 {
