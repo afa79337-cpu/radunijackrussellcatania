@@ -49,8 +49,8 @@ if (raduniNumber) {
 
     // Carica i dati dal localStorage o imposta un valore di default
     window.addEventListener('load', () => {
-        localStorage.setItem('raduniDisponibili', '1');
-        updateRaduniStatus(1);
+        localStorage.setItem('raduniDisponibili', '0');
+        updateRaduniStatus(0);
     });
 
     // Funzione globale per modificare i raduni (usa nella console)
